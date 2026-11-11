@@ -1,0 +1,41 @@
+{
+  "low_conf": 0.1,
+  "high_conf": 0.5,
+  "count_low": 6,
+  "count_high": 5,
+  "removed_when_raising_threshold": [
+    {
+      "id": 5,
+      "class_id": 11,
+      "class_name": "stop sign",
+      "score": 0.1278,
+      "xyxy": [
+        0.2,
+        252.4,
+        35.4,
+        326.1
+      ]
+    }
+  ],
+  "candidates_between_thresholds": [
+    {
+      "id": 5,
+      "class_id": 11,
+      "class_name": "stop sign",
+      "score": 0.1278,
+      "xyxy": [
+        0.2,
+        252.4,
+        35.4,
+        326.1
+      ]
+    }
+  ],
+  "kept": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

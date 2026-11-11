@@ -1,0 +1,15 @@
+{
+  "low_conf": 0.25,
+  "high_conf": 0.5,
+  "count_low": 5,
+  "count_high": 5,
+  "removed_when_raising_threshold": [],
+  "candidates_between_thresholds": [],
+  "kept": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

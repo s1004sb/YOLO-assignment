@@ -1,0 +1,7 @@
+# torch / torchvision 은 CPU판을 먼저 설치하세요 (README 2장 참고)
+ultralytics==8.4.210
+opencv-python==5.0.0.93
+numpy==2.5.4
+notebook==7.6.5
+ipywidgets==8.1.9
+nbformat

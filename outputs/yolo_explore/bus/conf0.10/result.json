@@ -1,0 +1,250 @@
+{
+  "image": "input/bus.jpg",
+  "conf": 0.1,
+  "imgsz": 640,
+  "device": "cpu",
+  "coordinate_format": "xyxy = [x1, y1, x2, y2] (원본 이미지 픽셀, 왼쪽 위가 0,0)",
+  "detection": {
+    "model": "yolo26n.pt",
+    "speed_ms": {
+      "preprocess": 9.705100001156097,
+      "inference": 261.8344000002253,
+      "postprocess": 4.561900001135655
+    },
+    "boxes": [
+      {
+        "id": 0,
+        "class_id": 5,
+        "class_name": "bus",
+        "score": 0.8806,
+        "xyxy": [
+          0.0,
+          230.5,
+          803.2,
+          750.7
+        ]
+      },
+      {
+        "id": 1,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.872,
+        "xyxy": [
+          48.6,
+          397.7,
+          240.3,
+          902.4
+        ]
+      },
+      {
+        "id": 2,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.8608,
+        "xyxy": [
+          222.9,
+          404.8,
+          345.5,
+          861.0
+        ]
+      },
+      {
+        "id": 3,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.8462,
+        "xyxy": [
+          669.6,
+          394.5,
+          809.9,
+          879.4
+        ]
+      },
+      {
+        "id": 4,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.6562,
+        "xyxy": [
+          0.2,
+          553.0,
+          59.7,
+          871.3
+        ]
+      },
+      {
+        "id": 5,
+        "class_id": 11,
+        "class_name": "stop sign",
+        "score": 0.1278,
+        "xyxy": [
+          0.2,
+          252.4,
+          35.4,
+          326.1
+        ]
+      }
+    ],
+    "watched_classes_only": [
+      {
+        "id": 0,
+        "class_id": 5,
+        "class_name": "bus",
+        "score": 0.8806,
+        "xyxy": [
+          0.0,
+          230.5,
+          803.2,
+          750.7
+        ]
+      },
+      {
+        "id": 1,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.872,
+        "xyxy": [
+          48.6,
+          397.7,
+          240.3,
+          902.4
+        ]
+      },
+      {
+        "id": 2,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.8608,
+        "xyxy": [
+          222.9,
+          404.8,
+          345.5,
+          861.0
+        ]
+      },
+      {
+        "id": 3,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.8462,
+        "xyxy": [
+          669.6,
+          394.5,
+          809.9,
+          879.4
+        ]
+      },
+      {
+        "id": 4,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.6562,
+        "xyxy": [
+          0.2,
+          553.0,
+          59.7,
+          871.3
+        ]
+      },
+      {
+        "id": 5,
+        "class_id": 11,
+        "class_name": "stop sign",
+        "score": 0.1278,
+        "xyxy": [
+          0.2,
+          252.4,
+          35.4,
+          326.1
+        ]
+      }
+    ]
+  },
+  "segmentation": {
+    "model": "yolo26n-seg.pt",
+    "speed_ms": {
+      "preprocess": 6.649599999946076,
+      "inference": 252.39289999808534,
+      "postprocess": 110.54359999980079
+    },
+    "instances": [
+      {
+        "id": 0,
+        "mask_value": 1,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.877,
+        "xyxy": [
+          52.8,
+          396.7,
+          243.4,
+          905.9
+        ],
+        "mask_area_px": 49302,
+        "mask_fill_ratio_in_box": 0.508
+      },
+      {
+        "id": 1,
+        "mask_value": 2,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.8632,
+        "xyxy": [
+          669.2,
+          396.2,
+          809.9,
+          880.3
+        ],
+        "mask_area_px": 21311,
+        "mask_fill_ratio_in_box": 0.313
+      },
+      {
+        "id": 2,
+        "mask_value": 3,
+        "class_id": 5,
+        "class_name": "bus",
+        "score": 0.8555,
+        "xyxy": [
+          4.8,
+          228.5,
+          806.6,
+          740.2
+        ],
+        "mask_area_px": 255357,
+        "mask_fill_ratio_in_box": 0.622
+      },
+      {
+        "id": 3,
+        "mask_value": 4,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.8106,
+        "xyxy": [
+          221.1,
+          405.4,
+          344.5,
+          859.4
+        ],
+        "mask_area_px": 33361,
+        "mask_fill_ratio_in_box": 0.595
+      },
+      {
+        "id": 4,
+        "mask_value": 5,
+        "class_id": 0,
+        "class_name": "person",
+        "score": 0.6484,
+        "xyxy": [
+          0.5,
+          550.4,
+          74.1,
+          872.2
+        ],
+        "mask_area_px": 11065,
+        "mask_fill_ratio_in_box": 0.467
+      }
+    ],
+    "mask_file": "mask_label.png",
+    "mask_note": "mask_label.png 의 픽셀값 k 는 instances 의 mask_value=k 객체"
+  }
+}
